@@ -1,0 +1,31 @@
+.arrow
+{
+  position: relative;
+  bottom: -2rem;
+  left: 50%;
+  margin-left:-20px;
+  width: 30px;
+  height: 40px;
+
+  /**
+   * Dark Arrow Down
+   */
+  background-image: url("https://cdn.glitch.com/9b2811c7-d96c-4a28-bf82-964f58d8c5af%2Fimage%20(8).png?v=1561258528429");
+  background-size: contain;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}

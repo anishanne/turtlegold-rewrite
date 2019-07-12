@@ -1,0 +1,190 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+  padding: 20px 20px 20px 20px;
+}
+header{
+  text-align: center;
+  /*background:url("https://cdn4.vectorstock.com/i/1000x1000/21/93/blue-background-design-web-abstract-low-poly-vector-14662193.jpg");*/
+  color: white;
+  margin: 0px 0px 0px 0px;
+  text-decoration: none;
+}
+
+img{
+  margin: 40px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 150px;
+}
+
+ul{
+  padding: 15px 20px 15px 20px;
+  margin: -5px  -10px  -10px -20px;
+  overflow: hidden;
+  background-color: #333333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 10;
+}
+
+li{
+  display: inline;
+  padding: 0px 10px 0px 10px;  
+  margin: 0px 0px 0px 0px;
+  text-decoration: none;
+}
+.navbarlink{
+  color: #BFBF51;
+  font-size: 17px;
+  background: #333333;
+  padding: 0px 10px 0px 10px;  
+  text-decoration: none;
+  
+}
+.navbarlink:hover {
+  color: #333333;
+  text-decoration: none;
+  font-size: 20px;
+  background: #BFBF51;
+  border: 15px solid #BFBF51;
+}
+
+.main1{
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  background: #BFBF51;
+  color: #333333;
+  border-radius: 20px;
+}
+
+.main1:hover {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  background: #333333;
+  color: #BFBF51;
+  border-radius: 20px;
+}
+
+.main2 {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  background: #333333;
+  color: #BFBF51;
+  border-radius: 20px;
+}
+body{
+  font-family: 'Fresca', sans-serif;
+  padding: 0px 0px 0px 10px;  
+}
+.main2:hover{
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  background: #BFBF51;
+  color: #333333;
+  border-radius: 20px;
+}
+
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+.intro1{
+  border-top: 1px solid white;
+  width:350px;
+  padding: 0px;
+  margin-bottom:-30px;
+  margin-top:30px;
+  
+}
+.intro2{
+  border-top: 1px solid white;
+  width:350px;
+  padding: 0px;
+  margin-bottom:30px;
+  margin-top:-30px;
+  
+}
+.mains{
+  height: 750px
+}
+.pbutton {
+  padding: 20px 30px;
+  font-size: 20px;
+  margin: 0 auto;
+  background: #EA5D4B;
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.nodec{
+  text-decoration: none;
+}
+
+
+.infos{
+  color: white;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
